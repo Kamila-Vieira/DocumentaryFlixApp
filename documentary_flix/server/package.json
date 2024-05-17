@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "json-server": "^0.16.1"
+  },
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": "json-server --watch ./db.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
